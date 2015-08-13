@@ -1,0 +1,528 @@
+/************************************************ 
+	Latimer Energy Lab Custom CSS
+	Updated July 31, 2015
+	Fred Farzad Feyzi
+*************************************************
+	Colors Pallete:
+		Turquoise: #1ABC9C;
+		Green Sea: #16A085;
+		Clouds:    #ECF0F1;
+		Silver:    #BDC3C7;
+************************************************/
+
+body {
+	background: #ECF0F1;
+}
+
+/* clearfix hack  - we do this in order to clear the child elements*/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+/* for multicolumn text */
+.multi {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    }
+
+header {
+	height: 490.5px;
+	background: url('../img/bg_main.png') center center;
+	background-size: cover; /* this feature is cool. it stretches the image */
+	font-family: 'Raleway', serif;
+	margin-top: 0;
+}
+
+header h1 {
+	font-size: 72px;
+	font-weight: 700;
+	color: #ECF0F1;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding-top: 120px;
+}
+
+span {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: #ECF0F1 solid 10px;
+}
+
+.subtitle {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ECF0F1;
+	line-height: 1;
+}
+
+/* CSS for the overall goal of the project */
+.goals {
+	margin-bottom: 39.840px;
+}
+
+.goals h2 {
+	color: #ECF0F1;
+	text-align: center;
+	font-size: 48px;
+	background: url('../img/bg_goals.png') center center no-repeat;
+}
+
+.goals p {
+	max-width: 960px;
+	margin: 0 auto;
+	color: #16A085;
+	font-size: 22px;
+	text-align: justify;
+}
+
+/* CSS for the generation team */
+.fan {
+	background: #1ABC9C;
+	margin-bottom: 39.84px;
+	padding-top: 39.84px;
+	/* height: 596.68px; */
+}
+
+.fan h2 {
+	color: #16A085;
+	text-align: center;
+	font-size: 48px;
+	background: url('../img/bg_fan.png') center center no-repeat;
+	margin: 0;
+
+}
+
+.overall-pic-1 {
+	width: 960px;
+	height: 400px;
+	margin: 39.84px auto 0;
+}
+
+.overall-pic-2 {
+	width: 960px;
+	height: 400px;
+	margin: 39.84px auto 0;
+}
+
+.overall-pic-3 {
+	width: 960px;
+	height: 400px;
+	margin: 39.84px auto 0;
+}
+
+.fan p {
+	font-size: 22px;
+	text-align: justify;
+}
+
+/* Used numerous times */
+.content-lockup {
+	max-width: 960px;
+	margin: 39.84px auto 0 auto;
+	padding-bottom: 39.84px;
+}
+
+/* Used numerous times */
+#content-inside {
+	text-align: center;
+	color: #ECF0F1;
+}
+
+.students-container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-bottom: 39.84px;
+	/*padding-top: 39.84px; */
+	height: 295px;
+}
+
+
+/* ***************************************************************************************
+ * THIS IS FOR EACH STUDENT. THE CSS COULD HAVE BEEN MORE EFFICIENT, BUT DUE TO THE WAY I
+ * HAD PREVIOUSLY HAD PLACEHOLDERS, THIS IS WHAT WE WILL DO FOR NOW
+ ****************************************************************************************/
+
+
+/* this is for each student */
+.student-mike {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_mike.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-ryan {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_ryang.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-baron {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_ryanb.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-max {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_max.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-niko {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_niko.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-lalo {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_lalo.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-andy {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_andy.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-ethan {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_ethan.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-fred {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_fred2.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-scott {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_ryans.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-chris {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_chris.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/* this is for each student */
+.student-matt {
+	width: 25%;
+	/*height: 150px; */
+	background: white;
+	display: block; /*because anchor tag, we needa do this */
+	float: left; 
+	background: url('../img/lat_matt.png') center center no-repeat; 
+	background-size: cover;
+	position: relative;
+	padding-top: 30%; /*making height according to width */
+	overflow: hidden;
+
+}
+
+/*****************************************************************************************
+ * AGAIN MY APOLOGIES FOR THIS LONG PORTION OF THE CSS. USING SASS COULD HAVE MADE IT MUCH
+ * MORE SIMPLE
+ ****************************************************************************************/
+
+@media screen and (max-width: 956px) {
+	.students-container {
+		height: 295px;
+		max-width: 480px; 
+	}
+	.student-scott {
+		width: 50%;
+	}
+	.student-fred {
+		width: 50%;
+	}
+	.student-lalo {
+		width: 50%;
+	}
+	.student-ethan {
+		width: 50%;
+	}
+	.student-niko {
+		width: 50%;
+	}
+	.student-andy {
+		width: 50%;
+	}
+	.student-ryan {
+		width: 50%;
+	}
+	.student-mike {
+		width: 50%;
+	}
+	.student-chris {
+		width: 50%;
+	}
+	.student-max {
+		width: 50%;
+	}
+	.student-matt {
+		width: 50%;
+	}
+	.student-baron {
+		width: 50%;
+	}
+	.overall-pic-1 {
+		max-width: 480px;
+		background: url('../img/teamRefactoredGen.png') center center no-repeat; 
+	}
+	.overall-pic-1 img {
+		display: none;
+	}
+	.overall-pic-2 {
+		max-width: 480px;
+		background: url('../img/teamRefactoredPay.png') center center no-repeat; 
+	}
+	.overall-pic-2 img {
+		display: none;
+	}
+	.overall-pic-3 {
+		max-width: 480px;
+		background: url('../img/teamRefactoredSolar.png') center center no-repeat; 
+	}
+	.overall-pic-3 img {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+	.student {
+		width: 50%;
+		padding: 25%; /* again, making height according to width */
+	}
+	.students-container {
+		height: 245px;
+		max-width: 480px; 
+	}
+}
+
+.student-info {
+	position: absolute;
+	top: 100%; /* sets the top margin edge for the positioned box */
+	right: 0; /* if right and left were 100%, no diff would be made -still need to understand why.. */
+	left: 0;
+	background-color: #16A085;
+	opacity: .7;
+	transition: top 0.5s ease; /* very cool effect. used css-tricks.com for reference */
+	text-align: center;
+}
+
+.student-info strong {
+	padding: 20px;
+	display: block;
+	color: white;
+	font-weight: 300px;
+	text-transform: uppercase;
+	font-size: 22px;
+	line-height: 1.2; /*makes it a bit tighter */
+}
+
+ a:hover .student-info{
+	top: 0%; /*takes away the layer on top so that opacity shows */
+	right: 0px;
+	bottom: 0;
+	left: 0px;
+	position: absolute;
+	background-color: #16A085;
+	height: 100%;
+}
+
+/*cascading style sheets. thus, must be placed here */
+@media screen and (max-width: 400px) {
+	.student-info strong {
+		padding: 20px 20px 5px 20px;
+		font-size: 16px;
+	}
+	.student-lalo .student-info strong {
+		font-size: 14px;
+	}
+}
+
+
+.payasyougo {
+	clear: both;
+}
+
+.payasyougo h2 {
+
+	color: #ECF0F1;
+	text-align: center;
+	font-size: 38px; /*remeber to change back to 48 */
+	background: url('../img/bg_goals.png') center center no-repeat;
+}
+
+.payasyougo p {
+	color: #16A085;
+	font-size: 22px;
+	text-align: justify;
+}
+
+.water {
+	background: #1ABC9C;
+	padding-top: 39.84px;
+	clear: both;
+}
+
+.water h2 {
+	color: #16A085;
+	text-align: center;
+	font-size: 38px;
+	background: url('../img/bg_fan.png') center center no-repeat;
+	margin: 0;
+}
+
+.water p {
+	font-size: 22px;
+	text-align: justify;
+}
+
+.special-thanks {
+	clear: both; /* clear the previous ish */
+	/*doesnt necesarily need anything in it for now */	
+}
+
+.special-thanks p {
+	text-align: center;
+	max-width: 960px;
+	margin: 39.84px auto;
+	color: #16A085;
+	font-size: 20px;
+}
+
+footer {
+	clear: both;
+	background: #1ABC9C center center;
+	background-size: cover; /* this feature is cool. it stretches the image */
+	font-family: 'Raleway', serif;
+}
+
+.endpage {
+	padding: 15px 30px;
+}
+
+.copyright {
+	margin: 0
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #ECF0F1;
+	text-align: center;
+}
