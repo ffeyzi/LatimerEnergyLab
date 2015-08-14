@@ -1,6 +1,6 @@
 /************************************************ 
 	Latimer Energy Lab Custom CSS
-	Updated July 31, 2015
+	Updated August 14, 2015
 	Fred Farzad Feyzi
 *************************************************
 	Colors Pallete:
@@ -101,6 +101,11 @@ span {
 	background: url('../img/bg_fan.png') center center no-repeat;
 	margin: 0;
 
+}
+
+.fan a {
+	text-decoration: none;
+	color: #ECF0F1;
 }
 
 .overall-pic-1 {
